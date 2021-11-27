@@ -1,0 +1,49 @@
+.arrivals {
+  .box {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    border: var(--border);
+    margin: 1rem 0;
+
+    &:hover {
+      border: var(--border-hover);
+    }
+
+    .image {
+      & > img {
+        height: 15rem;
+      }
+    }
+
+    .content {
+      & > h3 {
+        font-size: 2rem;
+        color: var(--black);
+      }
+
+      .price {
+        font-size: 2.2rem;
+        color: var(--black);
+        padding-bottom: 0.5rem;
+
+        & > span {
+          font-size: 1.5rem;
+          color: var(--light-color);
+          text-decoration: line-through;
+        }
+
+        .stars {
+          font-size: 1.5rem;
+          color: var(--green);
+
+          & > .svg-inline--fa {
+            font-size: 1.5rem;
+            color: var(--green);
+          }
+        }
+      }
+    }
+  }
+}

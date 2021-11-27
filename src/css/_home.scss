@@ -1,0 +1,49 @@
+.home {
+  background: url(../images/banner-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    .content {
+      flex: 1 1 42rem;
+
+      & > h3 {
+        color: var(--black);
+        font-size: 4.5rem;
+      }
+      & > p {
+        color: var(--light-color);
+        font-size: 1.4rem;
+        line-height: 2;
+        padding: 1rem 0;
+      }
+    }
+
+    .books-slider {
+      flex: 1 1 42rem;
+      text-align: center;
+      margin-top: 2rem;
+
+      .swiper-wrapper > a {
+        &:hover {
+          & > img {
+            transform: scale(0.9);
+          }
+        }
+        & > img {
+          height: 25rem;
+        }
+      }
+
+      .stand {
+        width: 100%;
+        margin-top: -2rem;
+      }
+    }
+  }
+}

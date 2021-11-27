@@ -1,0 +1,20 @@
+/* font-family */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+/* base */
+@import "./_base";
+
+/* components */
+@import "./header";
+@import "./bottomNavbar";
+@import "./loginForm";
+@import "./home";
+@import "./icons";
+@import "./featured";
+@import "./newsletter";
+@import "./arrivals";
+@import "./deal";
+@import "./review";
+@import "./blog";
+@import "./footer";
+@import "./loader";

@@ -1,0 +1,20 @@
+.bottom-navbar {
+  text-align: center;
+  background: var(--green);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  display: none;
+
+  & > .svg-inline--fa {
+    font-size: 7.5rem;
+    padding: 2rem;
+    color: #fff;
+
+    &:hover {
+      background: var(--dark-color);
+    }
+  }
+}
